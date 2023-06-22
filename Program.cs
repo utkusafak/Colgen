@@ -11,7 +11,7 @@ namespace RF_HEURISTICS
         public static int IT; // Iteration Time (seconds)
         static void Main(string[] args)
         {
-            string[] fileArray = Directory.GetFiles(@"/Users/apple/Documents/PHD/Programming/DATASETS/", "*.txt");
+            string[] fileArray = Directory.GetFiles(@"/Location of DATASETS file/DATASETS/", "*.txt");
 
 
             for (int i = 0; i < fileArray.Length; i++)
