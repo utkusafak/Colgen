@@ -454,7 +454,7 @@ namespace RF_HEURISTICS
 
         public void writedata(ProblemData data,string dataset,int searched_column)
         {       
-            using (TextWriter tw = new StreamWriter("/Users/apple/Documents/PHD/Programming/DATASETS/Solutions"+ ".txt",true))
+            using (TextWriter tw = new StreamWriter("/Location of Solutions file/Solutions"+ ".txt",true))
             {
                 tw.WriteLine(dataset + " " + Method + " " + SolutionTime + " " + totalcost + " " + backlogcost + " " +  inventorycost + " " + productioncost + " " + setupcost + " " + MIPGap + " " + searched_column);
 
